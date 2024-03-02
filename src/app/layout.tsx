@@ -6,8 +6,9 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Infográfico | UTPrimers',
-  description: 'Inforgráfico sobre ... da UTPrimers',
+  title: 'BioNFix Prime | UTPrimers',
+  description:
+    'Projeto BioNFix Prime, bactéria para fixação mais eficiente de nitrogênio UTPrimers',
 }
 
 export default function RootLayout({
@@ -16,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body style={inter.style}>{children}</body>
+    <html lang="pt-BR" className="dark">
+      <body style={inter.style} className="bg-gray-950 text-white antialiased">
+        {children}
+      </body>
     </html>
   )
 }
