@@ -12,7 +12,7 @@ export const Applications = () => {
     <section id="why" className="itens-center flex w-full justify-center py-20">
       <div className="container flex w-full flex-col items-center justify-center gap-12">
         <h1 className="text-3xl font-bold">
-          Possiveis formas de aplicação do bioinsumos
+          Possíveis formas de aplicação dos bioinsumos
         </h1>
 
         <div className="flex max-w-5xl flex-col gap-8">

@@ -25,7 +25,7 @@ export const Hero = () => {
       <div className="w-full max-w-5xl">
         <h1 className="max-w-3xl text-7xl font-black">Projeto BioNFix Prime</h1>
         <p className="mt-4 text-xl font-medium text-lime-500">
-          Bactéria para fixação mais eficiênte de nitrogênio do solo
+          Bactéria para fixação mais eficiênte de nitrogênio no solo
         </p>
         <small className="mt-4">Mini IGEM - UTPrimers</small>
       </div>
