@@ -39,7 +39,7 @@ export const Hero = () => {
         {/* <div className="mt-32 flex justify-center gap-8"></div> */}
       </div>
 
-      <div className="mt-20 flex w-full max-w-5xl flex-col items-center justify-center gap-4 rounded-md border border-gray-700 p-4 shadow-lg shadow-gray-900">
+      <div className="mt-32 flex w-full max-w-5xl flex-col items-center justify-center gap-4 rounded-md border border-gray-700 p-4 shadow-lg shadow-gray-900">
         <h2 className="text-3xl font-bold">Do que se trata o projeto?</h2>
 
         <p className="flex gap-4 text-lg">
