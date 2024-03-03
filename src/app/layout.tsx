@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="dark">
+      <head>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      </head>
       <body style={inter.style} className="bg-gray-950 text-white antialiased">
         {children}
       </body>

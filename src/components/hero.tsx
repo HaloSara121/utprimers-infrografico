@@ -10,7 +10,7 @@ export const Hero = () => {
       className="flex flex-col items-center justify-center pt-20"
     >
       <div className="container flex flex-col items-center">
-        <div className="opacity-1 absolute inset-0 -z-10 hidden items-center justify-center pb-[10rem] pl-[50rem] md:flex">
+        <div className="opacity-1 absolute inset-0 -z-10 hidden items-center justify-center pb-[12.5rem] pl-[50rem] md:flex">
           <Image
             className="absolute -z-10 w-[20rem] object-cover opacity-40 "
             src={sphere}
@@ -30,13 +30,11 @@ export const Hero = () => {
           <h1 className="max-w-3xl text-7xl font-black">
             Projeto BioNFix Prime
           </h1>
-          <p className="mt-4 text-xl font-medium text-lime-500">
-            Bactéria para fixação mais eficiênte de nitrogênio no solo
+          <p className="mt-4 text-2xl font-medium text-lime-500">
+            Super bactéria fixadora de nitrogênio
           </p>
           <small className="mt-4">Mini IGEM - UTPrimers</small>
         </div>
-
-        {/* <div className="mt-32 flex justify-center gap-8"></div> */}
       </div>
 
       <div className="mt-32 flex w-full max-w-5xl flex-col items-center justify-center gap-4 rounded-md border border-gray-700 p-4 shadow-lg shadow-gray-900">
@@ -48,8 +46,8 @@ export const Hero = () => {
           de acidez, o que pode dificultar a absorção de nutrientes essenciais
           pelas plantas. Para resolver isso, nós desenvolvemos a seguinte
           solução: modificar geneticamente uma bactéria chamada Acetobacter
-          Diazotrophicus. Essas modificações fazer com que essa bactéria ajude
-          as plantas a obterem mais nutrientes, mesmo em solos com diferentes
+          Diazotrophicus. Essas modificações faze com que essa bactéria ajude as
+          plantas a obterem mais nutrientes, mesmo em solos com diferentes
           acidezes. Isso ajudaria os agricultores a cultivar mais alimentos de
           forma mais eficiente, o que é importante para alimentar mais pessoas e
           cuidar do meio ambiente ao mesmo tempo.
